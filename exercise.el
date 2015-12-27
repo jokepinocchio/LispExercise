@@ -94,7 +94,12 @@
     (print (add2 8))
       
 
+    ;;字符串判空
+    (defun string-empty (str)
+      (not (string< "" str)))
 
+    (string-empty "test")
+    (string-empty "")
 
 
 

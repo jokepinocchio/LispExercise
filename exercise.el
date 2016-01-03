@@ -92,7 +92,6 @@
     (defun add(x)
       (+ 2 x))
     (print (add2 8))
-      
 
     ;;字符串判空
     (defun string-empty (str)
